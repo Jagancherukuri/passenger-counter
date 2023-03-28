@@ -1,0 +1,63 @@
+body {
+    background-image: url('D:\photo-1556695736-d287caebc48e.jpeg');
+    background-size:cover;
+    font-family:  'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    height: 100vh;
+    
+}
+.container{
+    background-color: white;
+    max-width: 80%;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 10px;
+    
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+ #save-btn:hover {
+    width: 200px;
+    background-color: green;
+
+}
+#increment-btn:hover{
+    width: 200px;
+    background: rgb(46, 11, 11);
+}
+#increment-btn {
+    background: rgb(93, 8, 8);
+}
+
+#save-btn  {
+    background: rgb(31, 61, 31);
+}
+#saveEl{
+    font-weight: bold;
+    font-style: oblique;
+}
+
+ 
